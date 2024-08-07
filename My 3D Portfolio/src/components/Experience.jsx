@@ -44,10 +44,10 @@ const ExperienceCard = ({ experience }) => (
 const Experience = () => {
   return (
     <>
-      <motion.dev>
+      <motion.div>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview</h2>
-      </motion.dev>
+      </motion.div>
 
       <div className="mt-20 flex flex-col">
         <verticalTimeLine>
