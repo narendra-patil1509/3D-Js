@@ -5,7 +5,6 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-import { log } from "three/examples/jsm/nodes/Nodes.js";
 
 //Jqq9AvwIuSjoMiA5c
 //template_1t76uxq
