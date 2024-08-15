@@ -80,5 +80,5 @@ const Works = () => {
     </>
   )
 }
-
-export default SectionWrapper(Works, "works")
+export default Works;
+// export default SectionWrapper(Works, "works")
