@@ -50,14 +50,14 @@ const Experience = () => {
       </motion.div>
 
       <div className="mt-20 flex flex-col">
-        <verticalTimeLine>
+        <VerticalTimeline>
           {experiences.map((experience, index) => (
-            <ExperienceCard key={index} experince={experience} />
+            <ExperienceCard key={index} experience={experience} />
           ))}
-        </verticalTimeLine>
+        </VerticalTimeline>
       </div>
     </>
   )
 }
-
-export default SectionWrapper(Experience, "work");
+export default Experience;
+// export default SectionWrapper(Experience, "work");
