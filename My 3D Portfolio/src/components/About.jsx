@@ -6,7 +6,6 @@ import {styles} from '../styles';
 import {services} from '../constants';
 import {fadeIn, textVariant} from '../utils/motion';
 import { SectionWrapper } from '../hoc';
-// import {fade} from 'maath/dist/declarations/src/misc';
 
 const ServiceCard = ({index, title, icon}) => {
   return(
